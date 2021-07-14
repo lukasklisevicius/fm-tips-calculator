@@ -1,0 +1,73 @@
+@import "variables";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body {
+    background-color: $Light_grayish_cyan1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Mono', monospace;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: $border_radius;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.results {
+    background-color: $Very_dark_cyan;
+    height: 200px;
+    border-radius: $border_radius;
+}
+
+.form {
+    input {
+        width: 100%;
+        height: 2rem;
+        border-radius: 5px;
+        border: none;
+        background-color: $Light_grayish_cyan2;
+        padding: 5px;
+        font-size: 25px;
+    }
+}
+
+
+.btn {
+    background-color: $Very_dark_cyan;
+    color: #fff;
+    border-radius: 5px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1,
+h3,
+h4 {
+    font-weight: 400;
+}
